@@ -1,8 +1,8 @@
 html 
 {
-  font-size: 10px; /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
+  font-size: 10px; 
   font-family:
-    "Open Sans", sans-serif; /* Este debe ser el resto del resultado que obtuviste de Google fonts */
+    "Open Sans", sans-serif; 
 }
 
 h1 
