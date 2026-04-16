@@ -1,6 +1,19 @@
 const miTitulo = document.querySelector("h1");
 miTitulo.textContent = "¡Hola mundo!";
 
+
+const myImage = document.querySelector("img");
+
+myImage.addEventListener("click", () => {
+  const mySrc = myImage.getAttribute("src");
+  if (mySrc === "firefox-icon.png") {
+    myImage.setAttribute("src", "firefox2.png");
+  } else {
+    myImage.setAttribute("src", "firefox-icon.png");
+  }
+});
+
+
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 
